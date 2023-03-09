@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
   "dependencies": {
     "p-limit": "^4.0.0",
     "pdf-lib": "^1.17.1"
